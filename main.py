@@ -7,7 +7,7 @@ from bson import ObjectId
 app = FastAPI()
 
 # mongo db connection settings
-MONGO_DB_URL = "mongodb+srv://divyansh:imgeniusdpssingh@birdvision.nrg72vb.mongodb.net/?retryWrites=true&w=majority&appName=birdvision"
+MONGO_DB_URL = "mongodb+srv://divyansh:<passwordhere>@birdvision.nrg72vb.mongodb.net/?retryWrites=true&w=majority&appName=birdvision"
 MONGO_DB_NAME = "birdvision"
 MONGO_COLLECTION_NAME = "products"
 
