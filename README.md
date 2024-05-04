@@ -28,6 +28,12 @@ This API allows you to manage products in an e-commerce application. You can per
   ```
   uvicorn main:app --reload
   ```
+ - make sure  in the main.py file : you have setup the mongo db credentials successfully :
+ - ```
+   MONGO_DB_URL = "mongodb+srv://divyansh:<passwordhere>@birdvision.nrg72vb.mongodb.net/?retryWrites=true&w=majority&appName=birdvision"
+   ```
+   replace the url of  MONGO_DB_URL with your own mongo db url.
+   
 Your  project is successfully setup and running!
 
 ## API Documentation
