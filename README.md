@@ -81,11 +81,11 @@ Retrieve a list of all products from the database.
 Retrieve details of a specific product by its ID.
 
 #### Request
-Method: GET
-URL: /products/{product_id}
+- Method: GET
+- URL: /products/{product_id}
 Response
-Status Code: 200 OK
-Content: JSON object representing the product
+- Status Code: 200 OK
+- Content: JSON object representing the product
 
 ```
 Copy code
@@ -101,11 +101,11 @@ Copy code
 Update an existing product based on its ID.
 
 #### Request
-Method: PUT
-URL: /products/{product_id}
+- Method: PUT
+- URL: /products/{product_id}
 Headers:
-Content-Type: application/json
-Body: JSON object representing the updated product
+- Content-Type: application/json
+- Body: JSON object representing the updated product
 
 Request Body Schema (JSON)
 ```
@@ -116,9 +116,9 @@ Request Body Schema (JSON)
 }
 ```
 
-Response
-Status Code: 200 OK
-Content: JSON object representing the updated product
+- Response
+- Status Code: 200 OK
+- Content: JSON object representing the updated product
 
 ```
 {
@@ -134,7 +134,7 @@ Content: JSON object representing the updated product
 Delete a product by its ID.
 
 #### Request
-Method: DELETE
-URL: /products/{product_id}
+- Method: DELETE
+- URL: /products/{product_id}
 Response
-Status Code: 204 No Content
+- Status Code: 204 No Content
