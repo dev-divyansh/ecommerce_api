@@ -137,4 +137,23 @@ Delete a product by its ID.
 - Method: DELETE
 - URL: /products/{product_id}
 Response
+- "message":"Product deleted successfully"
 - Status Code: 204 No Content
+
+
+
+### Testing 
+To run the tests, navigate to your project directory in the terminal or command prompt and execute the following command:
+
+install this dependency if not installed
+```
+pip install pytest
+```
+to run the test simply run : 
+```
+pytest
+```
+
+This command will automatically discover and run all tests in file named test_main.py .
+
+Make sure that your FastAPI application is not running while you're running the tests, as pytest will attempt to start its own server to test your endpoints.
